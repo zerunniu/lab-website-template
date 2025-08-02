@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: DUAL
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+subtitle: Distributed compUting, optimizAtion, and Learning (DUAL) group at USyd
+description: please Input context
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -11,7 +11,7 @@ links:
   email: contact@your-lab.com
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
-  github: your-lab
+  github: https://github.com/dual-grp
   twitter: YourLabHandle
   youtube: YourLabChannel
 
