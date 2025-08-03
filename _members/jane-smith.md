@@ -7,7 +7,7 @@ aliases:
   - J. Smith
   - J Smith
 links:
-  home-page: [https://janesmith.com](https://scholar.google.com/citations?user=2dTScwcAAAAJ&hl=en)
+  home-page: [https://scholar.google.com/citations?user=2dTScwcAAAAJ&hl=en]
 ---
 
 Here are some descriptions
