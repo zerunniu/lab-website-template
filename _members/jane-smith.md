@@ -1,13 +1,10 @@
 ---
 name: Zerun Niu
 image: images/photo.jpg
-role: Master Student
-affiliation: University of Sydney
-aliases:
-  - J. Smith
-  - J Smith
+role: MPhil
+group: alum
 links:
-  home-page: [https://scholar.google.com/citations?user=2dTScwcAAAAJ&hl=en]
+  github: VVVpa3ck
 ---
 
 Here are some descriptions
