@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.48550/ARXIV.2506.03167
+  title: Distributionally Robust Wireless Semantic Communication with Large AI Models
+  authors:
+  - Long Tan Le
+  - Senura Hansaja Wanasekara
+  - Zerun Niu
+  - Yansong Shi
+  - Nguyen H. Tran
+  - Phuong Vo
+  - Walid Saad
+  - Dusit Niyato
+  - Zhu Han
+  - Choong Seon Hong
+  - H. Vincent Poor
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g9v3k4
+  orcid: 0009-0004-1110-737X
+  Zerun Niu: true
+  plugin: orcid.py
+  file: orcid.yaml
+  Senura H. Wanasekara: true
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
