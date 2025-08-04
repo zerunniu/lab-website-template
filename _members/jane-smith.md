@@ -1,7 +1,7 @@
 ---
 name: Zerun Niu
 image: images/team/zerun.jpg
-role: MPhil
+role: master
 group: alum
 description: Postdoctoral Researcher in Natural Language Processing
 links:
