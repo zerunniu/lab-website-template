@@ -14,17 +14,20 @@ Here are some descriptions.
 ## Professor
 {% include list.html data="members" component="portrait" filter="role == 'professor'" %}
 
-## PhD Students
+## PhD
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
-## MPhil Students
+## MPhil
 {% include list.html data="members" component="portrait" filter="role == 'mphil'" %}
 
-## Research Pathway Students
+## Research Pathway
 {% include list.html data="members" component="portrait" filter="role == 'research-pathway'" %}
 
-## Other Students
-{% include list.html data="members" component="portrait" filter="role == 'other'" %}
+## Honours
+{% include list.html data="members" component="portrait" filter="role == 'honours'" %}
+
+## Alumni
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
