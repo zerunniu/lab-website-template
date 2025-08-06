@@ -1,6 +1,6 @@
 ---
 name: Jimmy Huang
-image: images/team/Jimmy.jpg
+image: images/Jimmy.jpg
 role: Master 
 group: DUAL
 description: A noob 
