@@ -20,6 +20,21 @@
   orcid: 0009-0004-1110-737X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1109/atc63255.2024.10908307
+  title: Lossy Compression of Multi-Channel EEG and PPG Signals Based on Golomb-Rice
+    Coding with Parameter Estimation
+  authors:
+  - Senura Hansaja Wanasekara
+  - Han Huy Dung
+  - Ngoc Hung Nguyen
+  - Van-Dinh Nguyen
+  publisher: 2024 International Conference on Advanced Technologies for Communications
+    (ATC)
+  date: '2024-10-17'
+  link: https://doi.org/g9wbrw
+  orcid: 0009-0004-1110-737X
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
