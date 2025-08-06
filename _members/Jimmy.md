@@ -1,7 +1,7 @@
 ---
 name: Jimmy Huang
 image: images/team/Jimmy.jpg
-role: other
+role: research-pathway
 group: DUAL
 description: A noob 
 links:

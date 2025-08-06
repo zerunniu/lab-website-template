@@ -24,7 +24,7 @@ Here are some descriptions.
 {% include list.html data="members" component="portrait" filter="role == 'research-pathway'" %}
 
 ## Other Students
-{% include list.html data="members" component="portrait" filter="role == 'other' or role == 'master' or role == 'research-pathway' or role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'other'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
