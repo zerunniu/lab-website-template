@@ -7,20 +7,28 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Here are some descriptions.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Professor
+{% include list.html data="members" component="portrait" filter="role == 'professor'" %}
+
+## PhD Students
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+## MPhil Students
+{% include list.html data="members" component="portrait" filter="role == 'mphil'" %}
+
+## Research Pathway Students
+{% include list.html data="members" component="portrait" filter="role == 'research-pathway'" %}
+
+## Other Students
+{% include list.html data="members" component="portrait" filter="role == 'other' or role == 'master' or role == 'research-pathway' or role == 'undergrad'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Here are some descriptions.
 
 {% include section.html %}
 

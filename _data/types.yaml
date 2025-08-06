@@ -2,6 +2,10 @@
 
 # team member roles
 
+professor:
+  icon: fa-solid fa-microscope
+  description: Professor
+
 principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
@@ -13,6 +17,18 @@ postdoc:
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+
+mphil:
+  icon: fa-solid fa-graduation-cap
+  description: MPhil Student
+
+research-pathway:
+  icon: fa-solid fa-user-graduate
+  description: Research Pathway Student
+
+other:
+  icon: fa-solid fa-user-graduate
+  description: Other Students
 
 undergrad:
   icon: fa-solid fa-user-graduate
