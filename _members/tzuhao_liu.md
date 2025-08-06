@@ -1,7 +1,7 @@
 ---
 name: Tzu-Hao Liu
 image: images/team/tzuhao.jpg
-role: other
+role: research-pathway
 group: dual
 description: Reseacher
 links:
