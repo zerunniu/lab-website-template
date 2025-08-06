@@ -1,6 +1,5 @@
 - title: Cool Dataset
   subtitle: a subtitle
-  group: featured
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -10,7 +9,6 @@
 
 - title: Cool Package
   subtitle: a subtitle
-  group: featured
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -45,3 +43,16 @@
   repo: greenelab/lab-website-template
   tags:
     - software
+
+- title: GOODSPEED
+  subtitle: Speculative Decoding for Efficient and Fair LLM Inference at the Edge
+  group: featured
+  image: images/project/goodspeed_intro.PNG
+  link: projects/goodspeed_intro.md
+  description: A novel system for **speculative decoding** in distributed edge inference that maximizes inference efficiency and ensures fairness across clients. GOODSPEED leverages small draft models on edge servers with centralized verification, featuring parallel speculative generation, efficient batched verification, and gradient-based scheduling for fair resource allocation.
+  tags:
+    - large language models
+    - speculative decoding
+    - distributed systems
+    - edge computing
+    - inference optimization
