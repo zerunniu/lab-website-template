@@ -2,7 +2,6 @@
 name: Nguyen Tung Anh
 image: images/team/tung.jpg
 role: alumni
-description: Doctor
+description: Machine Lerarning Engineer, PhD
 ---
-
 Here is some description for Dr. Tung Anh
