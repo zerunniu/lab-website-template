@@ -10,10 +10,10 @@ proofer: false
 links:
   email: contact@your-lab.com
   orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  # google-scholar: ETJoidYAAAAJ
   github: https://github.com/dual-grp
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  # twitter: YourLabHandle
+  # youtube: YourLabChannel
 
 ### jekyll settings
 

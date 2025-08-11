@@ -7,14 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research focuses on cutting-edge areas in artificial intelligence, machine learning, and distributed systems. We investigate novel approaches to improve AI efficiency, fairness, and interpretability, with particular emphasis on large language models, federated learning, and edge computing.
+
+Our team explores both theoretical foundations and practical applications, contributing to the advancement of intelligent systems that can operate effectively in real-world, resource-constrained environments.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Distributionally Robust Wireless Semantic Communication with Large AI Models" style="rich" show_image=false %}
 
 {% include section.html %}
 
@@ -24,4 +25,4 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" style="rich" show_image=false %}

@@ -7,27 +7,21 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We welcome collaboration opportunities, research inquiries, and discussions about our work in artificial intelligence, federated learning, and large language models. Whether you're interested in joining our team, exploring potential partnerships, or learning more about our research, we'd love to hear from you.
+
+Feel free to reach out to us through any of the contact methods below.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="dual.group@sydney.edu.au"
+  link="dual.group@sydney.edu.au"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="School of Computer Science, University of Sydney"
+  link="https://www.google.com/maps/place/School+of+Computer+Science,+University+of+Sydney"
 %}
 
 {% include section.html %}
@@ -36,8 +30,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/lab_cropped.jpg"
+  caption="Our Research Lab"
 %}
 
 {% endcapture %}
@@ -46,8 +40,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/campus_cropped.jpg"
+  caption="University of Sydney Campus"
 %}
 
 {% endcapture %}
@@ -57,21 +51,22 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Office Hours**  
+Monday - Friday  
+9:00 AM - 5:00 PM
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Location**  
+School of Computer Science  
+University of Sydney, NSW 2006
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Research Focus**  
+Federated Learning  
+Large Language Models  
+Edge Computing
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

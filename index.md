@@ -5,7 +5,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We conduct cutting-edge research in artificial intelligence, federated learning, and large language models. Our work focuses on developing efficient, fair, and interpretable AI systems that can operate effectively in distributed and resource-constrained environments.
 
 {%
   include button.html
@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our projects span from theoretical innovations to practical applications, including speculative decoding systems for LLM inference, federated learning frameworks, and edge computing solutions. Each project addresses real-world challenges in modern AI systems.
 
 {%
   include button.html
@@ -43,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/project/goodspeed_intro.PNG"
+  image="images/project.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our diverse team brings together researchers, students, and collaborators from various backgrounds in federated learning, machine learning, and large language models. We foster an inclusive environment where innovative ideas flourish and cutting-edge research thrives.
 
 {%
   include button.html

@@ -35,61 +35,108 @@
   orcid: 0009-0004-1110-737X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: arxiv:2006.08848
+  title: Personalized Federated Learning with Moreau Envelopes
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
+  - Canh T. Dinh
+  - Nguyen H. Tran
+  - Tuan Dung Nguyen
+  publisher: arXiv
+  date: '2020-06-16'
+  link: https://arxiv.org/abs/2006.08848
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: A novel personalized federated learning algorithm using Moreau envelopes
+    that addresses statistical heterogeneity in federated learning by enabling each
+    client to learn a personalized model while benefiting from the global knowledge.
+  image: https://raw.githubusercontent.com/Blackangoo/DDLS_Project/main/results_images/datasets/pFedMe_performance.png
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    text: ArXiv
+    link: https://arxiv.org/abs/2006.08848
+  - type: source
+    text: Code Repository
+    link: https://github.com/Blackangoo/DDLS_Project
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  - personalized federated learning
+  - moreau envelopes
+  - statistical heterogeneity
+  - machine learning
+  - distributed systems
+  repo: Blackangoo/DDLS_Project
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: arxiv:1910.13067
+  title: 'Federated Learning over Wireless Networks: Convergence Analysis and Resource
+    Allocation'
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Canh T. Dinh
+  - Nguyen H. Tran
+  - Minh N. H. Nguyen
+  - Choong Seon Hong
+  - Wei Bao
+  - Albert Y. Zomaya
+  - Vincent Gramoli
+  publisher: arXiv
+  date: '2019-10-29'
+  link: https://arxiv.org/abs/1910.13067
+  type: paper
+  description: A comprehensive study of federated learning over wireless networks,
+    providing convergence analysis and resource allocation optimization for mobile
+    user equipments with heterogeneous data and physical resources.
+  image: https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Wireless+Federated+Learning
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/1910.13067
+  - type: source
+    text: IEEE Xplore
+    link: https://doi.org/10.1109/TNET.2020.3035770
+  tags:
+  - federated learning
+  - wireless networks
+  - convergence analysis
+  - resource allocation
+  - mobile computing
+  - distributed systems
+  journal: IEEE/ACM Transactions on Networking
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.1109/TNNLS.2022.3224252
+  title: A New Look and Convergence Rate of Federated Multitask Learning With Laplacian
+    Regularization
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Canh T. Dinh
+  - Tung T. Vu
+  - Nguyen H. Tran
+  - Minh N. Dao
+  - Hongyu Zhang
+  publisher: IEEE Transactions on Neural Networks and Learning Systems
+  date: '2023-01-01'
+  link: https://doi.org/grkr38
+  type: paper
+  description: A novel federated multi-task learning framework using Laplacian regularization
+    that unifies conventional federated learning, personalized federated learning,
+    and federated multi-task learning. Proposes FedU and dFedU algorithms with proven
+    convergence rates.
+  image: https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Federated+Multi-Task+Learning
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2102.07148
+  - type: source
+    text: IEEE Xplore
+    link: https://doi.org/10.1109/TNNLS.2022.3224252
+  - type: source
+    text: Code Repository
+    link: https://github.com/CharlieDinh/FedU_FMTL
+  tags:
+  - federated multi-task learning
+  - laplacian regularization
+  - personalized federated learning
+  - convergence analysis
+  - distributed systems
+  - machine learning
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  repo: CharlieDinh/FedU_FMTL
   plugin: sources.py
   file: sources.yaml

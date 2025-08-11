@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Here are some descriptions.
+Our projects span various domains of AI and machine learning, from developing novel speculative decoding systems for efficient LLM inference to creating innovative solutions for distributed computing and edge AI. Each project combines rigorous research with practical applications, addressing real-world challenges in modern AI systems.
+
+Below you'll find our featured projects and ongoing research initiatives that demonstrate our commitment to advancing the state-of-the-art in intelligent systems.
 
 {% include tags.html tags="publication, resource, website" %}
 

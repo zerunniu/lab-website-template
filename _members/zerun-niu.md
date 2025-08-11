@@ -2,7 +2,7 @@
 name: Zerun Niu
 image: images/team/zerun.jpg
 role: mphil
-description: Master of Philosophy Stuent
+description: Master of Philosophy Student
 links:
   github: zerunniu
   email: nzr2210787575@gmail.com

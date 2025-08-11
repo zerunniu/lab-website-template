@@ -1,23 +1,89 @@
-- id: doi:10.1371/journal.pcbi.1007128
+# - id: doi:10.1371/journal.pcbi.1007128
+#   type: paper
+#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   date: 2020-12-4
+#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#   buttons:
+#     - type: manubot
+#       link: https://greenelab.github.io/meta-review/
+#     - type: source
+#       text: Manuscript Source
+#       link: https://github.com/greenelab/meta-review
+#     - type: website
+#       link: http://manubot.org/
+#   tags:
+#     - open science
+#     - collaboration
+#   repo: greenelab/meta-review
+
+# - id: doi:10.1016/j.csbj.2020.05.017
+#   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+
+# - id: doi:10.7554/eLife.32822
+#   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+
+- id: arxiv:2006.08848
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: A novel personalized federated learning algorithm using Moreau envelopes that addresses statistical heterogeneity in federated learning by enabling each client to learn a personalized model while benefiting from the global knowledge.
+  date: 2020-06-16
+  image: https://raw.githubusercontent.com/Blackangoo/DDLS_Project/main/results_images/datasets/pFedMe_performance.png
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
     - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+      text: ArXiv
+      link: https://arxiv.org/abs/2006.08848
+    - type: source
+      text: Code Repository
+      link: https://github.com/Blackangoo/DDLS_Project
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - personalized federated learning
+    - moreau envelopes
+    - statistical heterogeneity
+    - machine learning
+    - distributed systems
+  repo: Blackangoo/DDLS_Project
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: arxiv:1910.13067
+  type: paper
+  description: A comprehensive study of federated learning over wireless networks, providing convergence analysis and resource allocation optimization for mobile user equipments with heterogeneous data and physical resources.
+  date: 2019-10-29
+  image: https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Wireless+Federated+Learning
+  buttons:
+    - type: source
+      text: ArXiv
+      link: https://arxiv.org/abs/1910.13067
+    - type: source
+      text: IEEE Xplore
+      link: https://doi.org/10.1109/TNET.2020.3035770
+  tags:
+    - federated learning
+    - wireless networks
+    - convergence analysis
+    - resource allocation
+    - mobile computing
+    - distributed systems
+  journal: IEEE/ACM Transactions on Networking
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1109/TNNLS.2022.3224252
+  type: paper
+  description: A novel federated multi-task learning framework using Laplacian regularization that unifies conventional federated learning, personalized federated learning, and federated multi-task learning. Proposes FedU and dFedU algorithms with proven convergence rates.
+  date: 2023-01-01
+  image: https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Federated+Multi-Task+Learning
+  buttons:
+    - type: source
+      text: ArXiv
+      link: https://arxiv.org/abs/2102.07148
+    - type: source
+      text: IEEE Xplore
+      link: https://doi.org/10.1109/TNNLS.2022.3224252
+    - type: source
+      text: Code Repository
+      link: https://github.com/CharlieDinh/FedU_FMTL
+  tags:
+    - federated multi-task learning
+    - laplacian regularization
+    - personalized federated learning
+    - convergence analysis
+    - distributed systems
+    - machine learning
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  repo: CharlieDinh/FedU_FMTL
