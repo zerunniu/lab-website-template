@@ -1,4 +1,18 @@
 
+---
+title: GOODSPEED – Speculative Decoding for Efficient and Fair LLM Inference at the Edge
+description: A novel system for speculative decoding in distributed edge inference, maximizing efficiency and ensuring fairness across clients
+group: featured
+tags:
+  - machine learning
+  - large language models
+  - edge computing
+  - distributed systems
+  - optimization
+links:
+  repository: https://github.com/your-repo/goodspeed
+---
+
 # GOODSPEED – Speculative Decoding for Efficient and Fair LLM Inference at the Edge
 
 Deploying large language models (LLMs) in real-world applications demands both speed and accuracy—but current inference methods often fail to deliver on both fronts, especially in latency-sensitive and resource-constrained environments. **GOODSPEED** introduces a novel system for **speculative decoding** in distributed edge inference, aiming to **maximize inference efficiency and ensure fairness across clients**, all while retaining the high-quality outputs of large models.
