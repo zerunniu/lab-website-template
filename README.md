@@ -1,29 +1,31 @@
-<h1 align="center">Lab Website Template</h1>
-<p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/images/share.jpg?raw=true" alt="Lab Website Template">
-</p>
+# DUAL Research Group Website
 
-Lab Website Template (LWT) is an easy-to-use, flexible website template for labs.
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Official website for the **Distributed compUting, optimizAtion, and Learning (DUAL)** research group at the University of Sydney.
 
+## About
 
-Tutorial for this web: [**Documentation**](https://greene-lab.gitbook.io/lab-website-template-docs)
+This website serves as the central hub for information about our research group, including our latest publications, ongoing projects, and team members.
 
-## Key Features
+## Website Content
 
-- 🤖 Based on Git, GitHub, and Jekyll.
-- 📜 Automatically generated citations from simple identifiers (DOI, PubMed, ORCID, and many more) using Manubot. E.g. `doi:1234/5678` -> `title`, `authors`, `publisher`, `date`, etc.
-- 🧱 A comprehensive and flexible suite of pre-made components (building blocks) for structuring and styling your website:
-  - Formatted tables, code blocks, figures, and other basic elements.
-  - Citations with thumbnails and other rich details.
-  - List large sets of data with flexible filters and components.
-  - ...many more
-- 👁️ Automatic pull request previews.
-- ⚙️ Easy and automated configuration.
-- 👥 Team member pages with bios, roles, and social media links.
-- 🖋️ Blog posts with tags and rich content.
-- 📱 Works and looks good on desktop and mobile.
-- 🤝 Great documentation and support (if we do say so ourselves).
-- ... and much more!
+### 🔬 Research
+- **Publications**: Comprehensive list of our research papers with automatic citation generation
+- **Research Areas**: Federated learning, distributed optimization, edge computing, and large language models
+- **Highlighted Work**: Featured publications and recent contributions
 
-![GitHub last commit](https://img.shields.io/github/last-commit/greenelab/lab-website-template)
+### 👥 Team
+- **Lab Director**: Prof. Nguyen Hoang Tran
+- **Current Members**: PhD students, MPhil students, and research pathway participants
+- **Alumni**: Former members with their current positions and contributions
+
+### 🚀 Projects
+- **GOODSPEED**: Speculative decoding for efficient LLM inference at the edge
+- **Research Projects**: Ongoing investigations in distributed AI and optimization
+
+### 📞 Contact
+- **Location**: University of Sydney, Australia
+- **Research Interests**: Distributed computing, optimization, federated learning, and AI systems
+
+## Technical Details
+
+This website is built using Jekyll and automatically generates content from structured data files. Citations are automatically formatted from DOIs and other identifiers.
