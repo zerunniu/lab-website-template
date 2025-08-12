@@ -28,6 +28,18 @@ $wrap: 600px;
   margin: 0;
 }
 
+/* Ensure content next to floated sidebar starts as a clean column
+   and does not wrap underneath the avatar/float. */
+.float + *,
+.float ~ p,
+.float ~ ul,
+.float ~ ol,
+.float ~ div,
+.float ~ section,
+.float ~ article {
+  overflow: auto; /* creates new block formatting context to avoid wrap under float */
+}
+
 @media (max-width: $wrap) {
   .float {
     float: unset !important;

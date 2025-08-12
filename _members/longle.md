@@ -2,7 +2,7 @@
 name: Long Le
 image: images/team/long.jpg
 role: alumni
-description: Researcher of Intersect, PhD
+description: Data Scientist at Intersect， Australia; PhD
 ---
 Dr. Long Tan Le' s research interests span **federated learning**, **data mining**, **edge AI**, and the **Internet of Things (IoT)**. His work focuses on designing **robust and efficient distributed learning systems** for resource-constrained and heterogeneous edge environments.
 

@@ -1,0 +1,30 @@
+---
+---
+
+.member-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.member-aside {
+  flex: 0 0 240px;
+}
+
+.member-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .member-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .member-aside {
+    flex-basis: auto;
+  }
+}
+
+
