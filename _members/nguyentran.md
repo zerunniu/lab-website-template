@@ -2,12 +2,12 @@
 name: Nguyen Tran
 image: images/team/nguyen.jpg
 role: professor
-description: Lead of DUAL Group
+description: Associate Professor; Director of the DUAL Group at the University of Sydney
 links:
   home-page: https://nguyenhoangtran.github.io/
   email: nguyen.tran@sydney.edu.au
 ---
 
-Associate Professor Nguyen Hoang Tran leads the DUAL group at the University of Sydney, focusing on distributed computing, optimization, and machine learning. His highly cited work includes foundational contributions in personalized federated learning (e.g. using Moreau envelopes), federated learning over wireless networks, and resource optimization and incentive mechanism design for edge learning systems.
+Associate Professor Nguyen Hoang Tran directs the DUAL group at the University of Sydney. His research spans distributed computing, optimization, and machine learning, with notable contributions to personalized federated learning (e.g., Moreau envelopes), wireless network-aware federated learning, and resource optimization and incentive mechanism design for edge intelligence systems.
 
-Dr. Tran received his PhD from Kyung Hee University in 2011, where he was awarded Best PhD Thesis. His leadership and impact are recognized through numerous honors including the Sydney Research Accelerator (SOAR) Prize (2022–2023), and editorial roles at prestigious journals such as IEEE JSAC and IEEE Transactions on Machine Learning in Communications Networking.
+Dr. Tran received his PhD from Kyung Hee University in 2011, where he was awarded Best PhD Thesis. His leadership and impact are recognized through honors including the Sydney Research Accelerator (SOAR) Prize (2022–2023), and editorial roles with venues such as IEEE JSAC and IEEE Transactions on Machine Learning in Communications and Networking.
