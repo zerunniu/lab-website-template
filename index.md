@@ -68,7 +68,7 @@ Our diverse team brings together researchers, students, and collaborators from v
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpg"
   link="team"
   title="Our Team"
   text=text

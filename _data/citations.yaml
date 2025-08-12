@@ -15,11 +15,27 @@
   - Choong Seon Hong
   - H. Vincent Poor
   publisher: arXiv
-  date: '2025-01-01'
+  date: '2024-01-01'
   link: https://doi.org/g9v3k4
   orcid: 0009-0004-1110-737X
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: A distributionally robust approach for wireless semantic communication
+    with large AI models that addresses uncertainty in wireless channels and semantic
+    information transmission, enhancing reliability in AI-powered communication systems.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2506.03167
+  tags:
+  - semantic communication
+  - large AI models
+  - distributionally robust optimization
+  - wireless communication
+  - uncertainty
+  - robustness
+  journal: arXiv preprint
 - id: doi:10.1109/atc63255.2024.10908307
   title: Lossy Compression of Multi-Channel EEG and PPG Signals Based on Golomb-Rice
     Coding with Parameter Estimation
@@ -138,5 +154,201 @@
   - machine learning
   journal: IEEE Transactions on Neural Networks and Learning Systems
   repo: CharlieDinh/FedU_FMTL
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2212.12121
+  title: Federated PCA on Grassmann Manifold for Anomaly Detection in IoT Networks
+  authors:
+  - Tung-Anh Nguyen
+  - Jiayu He
+  - Long Tan Le
+  - Wei Bao
+  - Nguyen H. Tran
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://arxiv.org/abs/2212.12121
+  type: paper
+  description: A federated principal component analysis (PCA) framework on Grassmann
+    manifold for IoT anomaly detection. The method uses privacy-preserving federated
+    learning to aggregate normal network behavior features across IoT devices, with
+    ADMM-based gradient learning on Grassmann manifolds for fast training and low
+    detection latency.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2212.12121
+  - type: source
+    text: IEEE INFOCOM
+    link: https://doi.org/10.1109/INFOCOM53939.2023.10228884
+  tags:
+  - federated learning
+  - PCA
+  - grassmann manifold
+  - IoT
+  - anomaly detection
+  - privacy-preserving
+  - ADMM
+  journal: IEEE INFOCOM 2023
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2206.01432
+  title: On the Generalization of Wasserstein Robust Federated Learning
+  authors:
+  - Tung-Anh Nguyen
+  - Tuan Dung Nguyen
+  - Long Tan Le
+  - Canh T. Dinh
+  - Nguyen H. Tran
+  publisher: arXiv
+  date: '2022-06-02'
+  link: https://arxiv.org/abs/2206.01432
+  type: paper
+  description: A Wasserstein distributionally robust optimization approach (WAFL)
+    for federated learning that addresses non-i.i.d. data distribution problems. The
+    method reformulates robust federated learning as empirical surrogate risk minimization
+    with convergence guarantees, showing better generalization than FedAvg under distribution
+    shifts.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2206.01432
+  tags:
+  - federated learning
+  - wasserstein distance
+  - distributionally robust optimization
+  - non-iid data
+  - generalization
+  - robustness
+  journal: arXiv preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11036-024-02316-w
+  title: Distributionally Robust Federated Learning for Mobile Edge Networks
+  authors:
+  - Long Tan Le
+  - Tung-Anh Nguyen
+  - Tuan-Dung Nguyen
+  - Nguyen H. Tran
+  - Nguyen Binh Truong
+  - Phuong L. Vo
+  - Bui Thanh Hung
+  - Tuan Anh Le
+  publisher: Mobile Networks and Applications
+  date: '2024-01-01'
+  link: https://doi.org/gt62nh
+  type: paper
+  description: A distributionally robust federated learning framework designed for
+    mobile edge networks that addresses data heterogeneity and distribution shifts
+    in edge computing environments. The method enhances robustness and generalization
+    capabilities in resource-constrained mobile edge settings.
+  buttons:
+  - type: source
+    text: Springer
+    link: https://doi.org/10.1007/s11036-024-02316-w
+  tags:
+  - federated learning
+  - mobile edge computing
+  - distributionally robust optimization
+  - edge networks
+  - robustness
+  - heterogeneity
+  journal: Mobile Networks and Applications
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2407.07421
+  title: Federated PCA on Grassmann Manifold for IoT Anomaly Detection
+  authors:
+  - Tung-Anh Nguyen
+  - Long Tan Le
+  - Tuan Dung Nguyen
+  - Wei Bao
+  - Suranga Seneviratne
+  - Choong Seon Hong
+  - Nguyen H. Tran
+  publisher: arXiv
+  date: '2024-07-10'
+  link: https://arxiv.org/abs/2407.07421
+  type: paper
+  description: A federated learning framework combining Koopman operator theory and
+    reservoir computing for large-scale multivariate time-series anomaly detection.
+    The method leverages dynamic system modeling to detect anomalies in distributed
+    time-series data while preserving privacy.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2407.07421
+  tags:
+  - federated learning
+  - koopman operator
+  - reservoir computing
+  - time-series analysis
+  - anomaly detection
+  - multivariate data
+  - privacy-preserving
+  journal: arXiv preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2309.15659
+  title: 'Federated Deep Equilibrium Learning: Harnessing Compact Global Representations
+    to Enhance Personalization'
+  authors:
+  - Long Tan Le
+  - Tuan Dung Nguyen
+  - Tung-Anh Nguyen
+  - Choong Seon Hong
+  - Suranga Seneviratne
+  - Wei Bao
+  - Nguyen H. Tran
+  publisher: arXiv
+  date: '2024-05-22'
+  link: https://arxiv.org/abs/2309.15659
+  type: paper
+  description: A federated deep equilibrium learning approach that harnesses compact
+    global representations to enhance personalization in federated settings. The method
+    addresses the trade-off between personalization and global knowledge sharing through
+    equilibrium point modeling.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2309.15659
+  tags:
+  - federated learning
+  - deep equilibrium learning
+  - personalization
+  - global representations
+  - equilibrium modeling
+  - knowledge sharing
+  journal: arXiv preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2405.15230
+  title: '$i$REPO: $i$mplicit Reward Pairwise Difference based Empirical Preference
+    Optimization'
+  authors:
+  - Long Tan Le
+  - Han Shu
+  - Tung-Anh Nguyen
+  - Choong Seon Hong
+  - Nguyen H. Tran
+  publisher: arXiv
+  date: '2024-05-24'
+  link: https://arxiv.org/abs/2405.15230
+  type: paper
+  description: iREPO introduces an implicit reward pairwise difference based empirical
+    preference optimization framework for aligning large language models with human
+    expectations. The method uses regression on preference pairs to optimize model
+    alignment more effectively.
+  buttons:
+  - type: source
+    text: ArXiv
+    link: https://arxiv.org/abs/2405.15230
+  tags:
+  - preference optimization
+  - large language models
+  - human alignment
+  - empirical optimization
+  - reward modeling
+  - LLM alignment
+  journal: arXiv preprint
   plugin: sources.py
   file: sources.yaml
