@@ -48,8 +48,8 @@
   subtitle: Speculative Decoding for Efficient and Fair LLM Inference at the Edge
   group: featured
   image: images/project/goodspeed_intro.PNG
-  link: projects/goodspeed_intro.md
-  description: A novel system for **speculative decoding** in distributed edge inference that maximizes inference efficiency and ensures fairness across clients. GOODSPEED leverages small draft models on edge servers with centralized verification, featuring parallel speculative generation, efficient batched verification, and gradient-based scheduling for fair resource allocation.
+  link: /goodspeed/
+  description: A research project exploring **speculative decoding** techniques for efficient LLM inference in distributed edge environments. Currently in development - focusing on fair resource allocation and optimization strategies for edge computing scenarios.
   tags:
     - large language models
     - speculative decoding

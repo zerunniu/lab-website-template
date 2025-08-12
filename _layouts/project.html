@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+{% capture floatcontent %}
+
+{% if page.image %}
+  <img 
+    src="{{ page.image | relative_url }}" 
+    alt="{{ page.title | default: "project image" }}"
+    class="project-image"
+    loading="lazy"
+  />
+{% endif %}
+
+<div class="project-links">
+  {% for link in page.links %}
+    {% assign key = link[0] %}
+    {% assign value = link[1] %}
+    {% include button.html type=key link=value style="outline" %}
+  {% endfor %}
+</div>
+
+{% if page.tags %}
+  <div class="project-tags">
+    {% include tags.html tags=page.tags %}
+  </div>
+{% endif %}
+
+{% endcapture %}
+
+{% include float.html content=floatcontent %}
+
+<div class="project-content">
+  {{ content }}
+</div>
+
+<style>
+.project-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  margin-bottom: 15px;
+}
+
+.project-links {
+  margin-bottom: 15px;
+}
+
+.project-links .button-wrapper {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.project-links .button {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 0.9em !important;
+  padding: 8px 12px !important;
+  box-sizing: border-box;
+}
+
+.project-tags {
+  margin-top: 15px;
+}
+
+.project-content {
+  min-height: 500px;
+}
+
+/* Override float.scss for project pages */
+.float {
+  max-width: 200px !important;
+  margin-right: 30px !important;
+}
+
+@media (max-width: 800px) {
+  .float {
+    max-width: 180px !important;
+    margin-right: 25px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-image {
+    max-width: 100%;
+  }
+  
+  .float {
+    float: unset !important;
+    clear: both !important;
+    margin: auto !important;
+    max-width: unset !important;
+  }
+}
+</style>

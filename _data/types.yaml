@@ -207,6 +207,12 @@ manubot:
 
 # software
 
+repository:
+  icon: fa-brands fa-github
+  text: Repository
+  tooltip: Code Repository
+  link: $VALUE
+
 docs:
   icon: fa-solid fa-book
   text: Documentation
