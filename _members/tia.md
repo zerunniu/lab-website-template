@@ -1,5 +1,5 @@
 ---
-name: Tia
+name: Qingwen Tang
 image: images/team/tia.jpg
 role: research-pathway
 group: dual

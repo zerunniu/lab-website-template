@@ -3,7 +3,7 @@ name: Tzu-Hao Liu
 image: images/team/tzuhao.jpg
 role: research-pathway
 group: dual
-description: Research Pathway Student
+description: Research Pathway Student at USYD
 links:
   github: liuzihau
   email: liutzuhao2023@gmail.com

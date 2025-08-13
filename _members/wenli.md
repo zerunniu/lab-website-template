@@ -3,7 +3,7 @@ name: Wen Li
 image: images/team/wen.jpg
 role: research-pathway
 group: dual
-description: Master of Data Science student at USYD
+description: Research Pathway Student at USYD
 links:
   github: Vanny022
   email: vannylee1022@gmail.com
