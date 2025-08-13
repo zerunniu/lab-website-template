@@ -44,15 +44,29 @@
 #   tags:
 #     - software
 
-- title: GOODSPEED
-  subtitle: Speculative Decoding for Efficient and Fair LLM Inference at the Edge
+- title: WaSeCom
+  subtitle: Wasserstein Distributionally Robust Wireless Semantic Communication with Large AI Models
   group: featured
-  image: images/project/goodspeed_intro.PNG
-  link: /goodspeed/
-  description: A research project exploring **speculative decoding** techniques for efficient LLM inference in distributed edge environments. Currently in development - focusing on fair resource allocation and optimization strategies for edge computing scenarios.
+  image: images/research.jpg
+  link: /semcom/
+  description:  A research project on enhancing the robustness of wireless semantic communication using large AI models and Wasserstein distributionally robust optimization.
   tags:
-    - large language models
-    - speculative decoding
-    - distributed systems
-    - edge computing
-    - inference optimization
+    - semantic communication
+    - large AI models
+    - wireless communication
+    - distributionally robust optimization
+    - uncertainty
+    - robustness
+
+# - title: GOODSPEED
+#   subtitle: Speculative Decoding for Efficient and Fair LLM Inference at the Edge
+#   group: featured
+#   image: images/project/goodspeed_intro.PNG
+#   link: /goodspeed/
+#   description: A research project exploring **speculative decoding** techniques for efficient LLM inference in distributed edge environments. Currently in development - focusing on fair resource allocation and optimization strategies for edge computing scenarios.
+#   tags:
+#     - large language models
+#     - speculative decoding
+#     - distributed systems
+#     - edge computing
+#     - inference optimization
