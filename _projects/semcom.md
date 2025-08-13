@@ -12,12 +12,37 @@ tags:
   - distributionally robust optimization
   - uncertainty
   - robustness
+authors:
+  - Long Tan Le
+  - Senura Hansaja Wanasekara
+  - Zerun Niu
+  - Yansong Shi
+  - Nguyen H. Tran, Senior Member, IEEE
+  - Phuong Vo
+  - Walid Saad, Fellow, IEEE
+  - Dusit Niyato, Fellow, IEEE
+  - Zhu Han, Fellow, IEEE
+  - Choong Seon Hong, Fellow, IEEE
+  - H. Vincent Poor, Life Fellow, IEEE
 published: true
 ---
 
 # WaSeCom – Wasserstein Distributionally Robust Wireless Semantic Communication with Large AI Models
 
 **WaSeCom** is a novel, model-agnostic framework that enhances the reliability and adaptability of wireless semantic communication (SemCom) systems against both **semantic-level** and **channel-level** uncertainties. Leveraging **large AI models** and **Wasserstein distributionally robust optimization (WDRO)**, WaSeCom ensures that semantic fidelity is preserved even under adversarial perturbations, distributional shifts, and challenging wireless channel conditions.
+
+## ✍️ Authors
+- **Long Tan Le**  
+- **Senura Hansaja Wanasekara**  
+- **Zerun Niu**  
+- **Yansong Shi**  
+- **Nguyen H. Tran**, Senior Member, IEEE  
+- **Phuong Vo**  
+- **Walid Saad**, Fellow, IEEE  
+- **Dusit Niyato**, Fellow, IEEE  
+- **Zhu Han**, Fellow, IEEE  
+- **Choong Seon Hong**, Fellow, IEEE  
+- **H. Vincent Poor**, Life Fellow, IEEE  
 
 {% include alert.html type="info" content="🚀 **Project Status**: Active research with peer-reviewed publications and experimental validation across multiple modalities." %}
 
